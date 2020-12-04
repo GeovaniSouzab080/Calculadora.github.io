@@ -12,7 +12,7 @@ function calc(numero1, operacao, numero2) {
     }
 }
 
-function setarnumero(numero) {
+function setarnumeros(numero) {
     var divi = document.getElementById("visor").innerText
     if (!operador) {
         numero1 = divi + numero
@@ -22,7 +22,7 @@ function setarnumero(numero) {
     document.getElementById("visor").innerHTML += numero
 }
 
-function setarOperador(operadorDigitado) {
+function setarOperadores(operadorDigitado) {
     operador = operadorDigitado
     document.getElementById("visor").innerHTML += operadorDigitado
 }
